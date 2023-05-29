@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=<h3>>, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <h3 style="font-size: x-large;">Table List</h3>
+    <input value="asc" name="sortArray" type="radio" onchange="sortArray(event)" />Acsending Order
+    <input value="dsc" name="sortArray" type="radio" onchange="sortArray(event)" />Decsending Order
+    <table border="5px" cellpadding="15">
+        <tr id="tableRow"></tr>
+    </table>
+    <h4 id="selectedData"></h4>
+    <button type="delete" onclick="deltFunc()"
+        style="background-color: rgb(63, 165, 165); border: none ; color: antiquewhite; padding: 5px; height: 40px;width: 100px;">Delete</button>
+    <button type="delete" onclick="addDataFunc()"
+        style="background-color: rgb(221, 117, 32); border: none ; color: antiquewhite; padding: 5px; height: 40px; width: 100px;">Add
+        Value</button>
+    <button onclick="evenFunc()" value="Even"
+        style="background-color: rgb(112, 79, 235);border: none ; color: antiquewhite; padding: 5px; height: 40px; width: 100px;">Even
+        Num</button>
+    <button value="Odd" onclick="oddFunc()"
+        style="background-color: rgb(235, 79, 152); border: none ; color: antiquewhite; padding: 5px; height: 40px; width: 100px;">Odd
+        Num</button>
+    <button value="moveright" onclick="moveLeft()"
+        style="background-color: rgb(79, 121, 235); border: none ; color: antiquewhite; padding: 5px; height: 40px; width: 100px;">Move
+        left
+    </button>
+    <button value="moveleft" onclick="moveRight()"
+        style="background-color: rgb(79, 235, 183); border: none ; color: antiquewhite; padding: 5px; height: 40px; width: 100px;">Move
+        Right</button>
+
+    <script src="vanillaJS.js"></script>
+</body>
+
+</html>
